@@ -3,7 +3,7 @@ import { objTemp } from './tempString.js'
 const changeTmp = (hash) => {
   if (hash === '#/' || hash === '' || hash === '#') {
     return viewTmp('#/home');
-  } else if (hash === '#/loginMentora' || hash === '#/accesorios' || hash === '#/lugares') {
+  } else if (hash === '#/loginMentora' || hash === '#/accesorios' || hash === '#/lugares' || hash === '#/dashboard') {
     return viewTmp(hash);
   } else {
     return viewTmp('#/different');
