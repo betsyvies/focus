@@ -87,25 +87,25 @@ const objTemp = {
     </div>
   </div>
   <div id="stem" class="flex">
-      <div class="flex card">
-        <div>
-          <img src="assets/" />
-        </div>
-        <div>
-
-        </div>
+      <div class="flex card justify-content-center align-items-center">
+          <img class="iconcard" src="../images/science1.png" alt="science" />
+        <p class="cardtitle">Ciencia</p>
+        <p class="carddescription text-center">Según datos de la UIS, menos del 30% de los investigadores del mundo son mujeres.</p>
       </div>
-      <div class="flex card">
-        <p>Hello</p>
-        <p>jkhdjkhhudjkasdssdkj</p>
+      <div class="flex card justify-content-center align-items-center">
+      <img class="iconcard" src="../images/laptop.png" alt="science" />
+      <p class="cardtitle">Tecnología</p>
+      <p class="carddescription text-center">Las mujeres representan menos del 20 por ciento de los empleos en tecnología.</p>
       </div>
-      <div class="flex card">
-        <p>Hello</p>
-        <p>jkhdjkhhudjkasdssdkj</p>
+      <div class="flex card justify-content-center align-items-center">
+      <img class="iconcard" src="../images/build.png" alt="science" />
+      <p class="cardtitle">Ingeniería</p>
+      <p class="carddescription text-center">Las encuestas indican que el 11% de la fuerza laboral de ingeniería es femenina</p>
       </div>
-      <div class="flex card">
-        <p>Hello</p>
-        <p>jkhdjkhhudjkasdssdkj</p>
+      <div class="flex card justify-content-center align-items-center">
+      <img class="iconcard" src="../images/math123.png" alt="science" />
+      <p class="cardtitle">Matemáticas</p>
+      <p class="carddescription text-center">El porcentaje de doctorados en matemática y estadística obtenidos por mujeres en realidad cayó del 29,6% al 28,5%.</p>
       </div>
   </div>
   <div class="modal fade" id="optionUser" tabindex="-1" role="dialog" aria-labelledby="optionUser" aria-hidden="true">

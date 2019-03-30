@@ -198,6 +198,19 @@
     padding-right: 500px;
 }
 
+.cardtitle {
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carddescription {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .card {
     border-radius: 25px;
     width: 100px;
@@ -269,6 +282,19 @@ body {
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
+}
+
+.iconcard {
+    width: 6em;
+    height: 6em;
+}
+
+.iconcontainer {
+    flex: 1
+}
+
+.cardtextcontainer {
+    flex: 2
 }
 
 .form-control-borderless {
