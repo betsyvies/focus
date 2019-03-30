@@ -16,9 +16,6 @@ const viewTmp = (routers) => {
   container.innerHTML = objTemp[router];
   const loginMentora = document.getElementById('btnLoginMentora')
   loginMentora.addEventListener('click', () => {
-    $('#myModal').modal({
-      keyboard: false
-     })
     window.location.hash = '/loginMentora';
   })
 }

@@ -1,13 +1,62 @@
 const objTemp = {
-  accesorios: `<div class="position">
-    <h2 class="text-center">Accesorios</h2>
-    <figure>
-      <img src="https://static.wixstatic.com/media/219d1c_75df2dac805b4fc8af4a6cd8628124b9~mv2.jpg/v1/crop/x_0,y_110,w_600,h_380/fill/w_114,h_72,al_c,q_80,usm_0.66_1.00_0.01/219d1c_75df2dac805b4fc8af4a6cd8628124b9~mv2.webp" alt="Casa">
-      <img src="https://static.wixstatic.com/media/219d1c_0e76d356599541e7bafee776754d0ca1~mv2.jpg/v1/fill/w_124,h_98,al_c,q_80,usm_0.66_1.00_0.01/219d1c_0e76d356599541e7bafee776754d0ca1~mv2.webp" alt="Comedero">
-      <img src="https://static.wixstatic.com/media/219d1c_9ff95027b7c94efa8a027a4579fb03e9~mv2.jpg/v1/crop/x_43,y_41,w_214,h_228/fill/w_96,h_102,al_c,q_80,usm_0.66_1.00_0.01/219d1c_9ff95027b7c94efa8a027a4579fb03e9~mv2.webp" alt="Bebedero">
-      <img src="https://static.wixstatic.com/media/219d1c_9731ca523bda481a98aa3074c6b7932b~mv2.jpg/v1/fill/w_131,h_108,al_c,q_80,usm_0.66_1.00_0.01/219d1c_9731ca523bda481a98aa3074c6b7932b~mv2.webp" alt="Camita">
-    </figure>
-  </div>`,
+  dashboard: `	<div class="d-flex" id="wrapper">
+  <!-- Sidebar -->
+  <div class=" border-right sidemenu" id="sidebar-wrapper">
+    <div class="sidebar-heading">
+      <img class="logo-image" src="../images/focus-logo-white.png" />
+    </div>
+    <div class="list-group list-group-flush list">
+      <a href="#" class="list-group-item list-group-item-action listitem text-center">Inicio</a>
+      <a href="#" class="list-group-item list-group-item-action listitem text-center">Mentoras</a>
+      <a href="#" class="list-group-item list-group-item-action listitem text-center">Sessiones de mentoring</a>
+      <a href="#" class="list-group-item list-group-item-action listitem text-center">Perfil</a>
+    </div>
+  </div>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <img class="avatar" src="../images/avatar.png" alt="avatar" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center search-container">
+            <div class="col-12 col-md-10 col-lg-8">
+                <form class="card card-sm">
+                    <div class="card-body row no-gutters align-items-center">
+                        <div class="col-auto">
+                            <i class="fas fa-search h4 text-body"></i>
+                        </div>
+                        <!--end of col-->
+                        <div class="col">
+                            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Encuentra tu mentor...">
+                        </div>
+                        <!--end of col-->
+                        <div class="col-auto">
+                            <button class="btn btn-lg btn-primary" type="submit">Search</button>
+                        </div>
+                        <!--end of col-->
+                    </div>
+                </form>
+            </div>
+            <!--end of col-->
+        </div>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>`,
   loginMentora: `    <div class="modal-dialog" role="document">
   <div class="modal-content">
     <div class="modal-body">
@@ -42,6 +91,22 @@ const objTemp = {
   </div>
 </div>`,
   home: `
+  <header class="flex header">
+  <div id="logoContainer" class="flex">
+    <img id="logo" src="../images/Logo-and-slogan.png" alt="logo" />
+  </div>
+  <div id="topNavigator" class="flex">
+    <div class="flex topButton">
+      <p class="flex topButtonText">Nosotros</p>
+    </div>
+    <div class="flex topButton">
+      <p class="flex topButtonText">Mujeres poderosas</p>
+    </div>
+    <div class="flex topButton">
+      <p class="flex topButtonText">She can STEM</p>
+    </div>
+  </div>
+</header> 
   <div id="main" class="flex">
     <div class="flex descriptionContainer">
       <div>
