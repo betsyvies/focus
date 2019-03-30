@@ -1,3 +1,224 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+    width:100%;
+    flex-direction: row;
+    padding-top: 30;
+}
+
+#logoContainer {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+#logo {
+    width: 206px;
+}
+
+.topButtonText {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    opacity: 0.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+#topNavigator {
+    flex: 3;
+    padding-left: 190px;
+}
+
+.topButton {
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 100px;
+}
+
+.textWhiteButton {
+    font-size: 24px;
+    line-height: 29px;
+    color: #0087FB;
+    font-family: 'Poppins';
+}
+
+.whiteButton {
+    border: solid  #0087FB 3px;
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#main {
+    flex-direction: row;
+    padding-top: 100px;
+    background-image: url("assets/lines.png");
+    background-size: cover;
+}
+
+.imageContainer {
+    flex: 1
+}
+
+.mainTitle {
+    font-size: 96px;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 36px;
+}
+
+.textContainer {
+    margin-left: 190px;
+    margin-right: 50px;
+}
+
+.heroImage {
+  width: 566px;
+  height: 817px;
+}
+
+.joinusContainer {
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 30px;
+    justify-content: left;
+    align-items: center;
+}
+
+.joinusBtn {
+    background-color:  #0087FB;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.btnColor {
+    font-size: 36px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.descriptionContainer {
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+    flex-direction: column;
+    padding-bottom: 180px;
+}
+
+#carousel {
+    flex-direction: column;
+    width: 100%;
+    background-image: url("assets/carousel-background.png");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 250px;
+}
+
+.logoActivities {
+    margin-top: 120px;
+    width: 655px;
+    margin-bottom: 30px;
+}
+
+.carouselTitle {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.descriptionCarousel {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 901px;
+}
+
+.corouselTextContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+    padding-right: 200px;
+}
+
+.women {
+    width: 386px;
+}
+
+.textContainer {
+    flex: 3;
+    flex-direction: column;
+}
+
+.imageContainerWoman {
+    flex: 2;
+    flex-direction: column;
+}
+
+#stem {
+    flex-direction: row;
+    padding-top: 100px;
+    background-image: url("assets/lines.png");
+    background-size: cover;
+}
+
+#stem {
+    flex-direction: row;
+    padding-top: 100px;
+    background-image: url("assets/background-stem.png");
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    padding-right: 500px;
+}
+
+.card {
+    border-radius: 25px;
+    width: 100px;
+    flex-direction: column;
+    margin: 20px;
+    height: 317px;
+    box-shadow: 3px 4px 8px 3px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    background-color: white;
+    margin-top: 150px;
+  }
+  
+  .card:hover {
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+  }
+
 /* ESTILOS MODAL OPTION */
 .modal-header{
   display:flex;
@@ -28,6 +249,4 @@
 .login-header img{
   width: 200px;
   height: 100px;
- 
-
 }
