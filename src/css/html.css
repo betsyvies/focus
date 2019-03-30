@@ -1,0 +1,10 @@
+#html {
+  background: #fff;
+  border: 1px solid #aaa;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  overflow-y: scroll;
+}
+#html h1, #html h2, #html h3, #html h4, #html h5, #html p, #html ul {
+  margin: 0.5rem 0;
+}
