@@ -11,28 +11,33 @@ const objTemp = {
   loginMentora: `    <div class="modal-dialog" role="document">
   <div class="modal-content">
     <div class="modal-body">
-        <form>
-            <div class="form-group">
-                <label for="recipient-name" class="col-form-label">Nombre y apellido:</label>
-                <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-                <label for="recipient-name" class="col-form-label">Profesión</label>
-                <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-                <label for="recipient-name" class="col-form-label">¿Qué tecnologia eres experta?</label>
-                <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-              <label for="recipient-name" class="col-form-label">Disponibilidad de Tiempo</label>
-              <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-              <label for="message-text" class="col-form-label">Message:</label>
-              <textarea class="form-control" id="message-text"></textarea>
-            </div>
-        </form>
+    <form class="form-login">
+        <div class="form-group">
+            <label for="name" class="col-form-label">Nombre y apellido:</label>
+            <input type="text" class="form-control" id="name" onkeypress="register(value, 1)">
+        </div>
+        <div class="form-group">
+            <label for="country" class="col-form-label">País</label>
+            <input type="text" class="form-control" id="country" onkeypress="register(value,2)">
+        </div>
+        <div class="form-group">
+            <label for="profession" class="col-form-label">Profesión</label>
+            <input type="text" class="form-control" id="profession" onkeypress="register(value , 3)">
+        </div>
+        <div class="form-group">
+            <label for="speciality" class="col-form-label">¿Qué tecnologia conoces a profundidad?</label>
+            <input type="text" class="form-control" id="speciality" onkeypress="register(value, 4)">
+        </div>
+        <div class="form-group">
+          <label for="timeMentoring" class="col-form-label">Disponibilidad de Tiempo</label>
+          <input type="text" class="form-control" id="timeMentoring" onkeypress="register(value, 5)">
+        </div>
+        
+        <div class="form-group">
+          <label for="description" class="col-form-label">Cuéntanos alg más de ti!</label>
+          <textarea class="form-control" id="description" onkeypress="register(value, 6)"></textarea>
+        </div>
+    </form>
     </div>
   </div>
 </div>`,
