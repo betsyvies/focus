@@ -64,8 +64,6 @@
 }
 
 #main {
-    flex-direction: row;
-    padding-top: 100px;
     background-image: url("../../images/lines.png");
     background-size: cover;
 }
@@ -74,8 +72,13 @@
     flex: 1
 }
 
+.marginextra {
+    margin-left: 5em;
+    margin-top: 9em;
+}
+
 .mainTitle {
-    font-size: 96px;
+    font-size: 78px;
     font-weight: 700;
     color: #333;
     font-family: 'Poppins', sans-serif;
@@ -88,7 +91,7 @@
 .subtitle {
     font-family: 'Poppins', sans-serif;
     color: #000;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .textContainer {
@@ -107,6 +110,14 @@
     padding-top: 30px;
     justify-content: left;
     align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
 }
 
 .btnColor {

@@ -47,24 +47,26 @@ const objTemp = {
         <img class="logomain" src="../images/Logo-and-slogan.png" />
       </div>
       </nav>
-      <div id="main" class="flex">
-    <div class="flex descriptionContainer">
+      <div id="main" class="flex-container">
+      <div class="row">
+      <div class="col-sm marginextra">
       <div>
-        <p class="mainTitle">Women in STEM</p>
-      </div>
-      <div class="textContainer">
-        <p class="subtitle">Programa de mentoría en <span class="bold">ciencia</span>, <span class="bold">tecnología</span>,
-          <span class="bold">ingeniería</span> y <span class="bold">matemáticas</span>.</p>
-        <p class="subtitle">Enfocado en mujeres.</p>
-      </div>
-      <div class="flex joinusContainer">
-        <div>
-          <button type="button" class="btn btn-primary btnColor" data-toggle="modal" data-target="#optionUser">Únete</button>
-        </div>
+      <p class="mainTitle">Women in STEM</p>
+    </div>
+    <div class="">
+      <p class="subtitle">Programa de mentoría en <span class="bold">ciencia</span>, <span class="bold">tecnología</span>,
+        <span class="bold">ingeniería</span> y <span class="bold">matemáticas</span>.</p>
+      <p class="subtitle">Enfocado en mujeres.</p>
+    </div>
+    <div class="">
+      <div>
+        <button type="button" class="btn btn-primary btnColor" data-toggle="modal" data-target="#optionUser">Únete</button>
       </div>
     </div>
-    <div class="flex imageContainer">
+      </div>
+      <div class="col-sm">
       <img class="heroImage" src="../images/girl.png" alt="girl" />
+      </div>
     </div>
   </div>
   <div id="carousel" class="flex">
