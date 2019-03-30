@@ -1,5 +1,5 @@
 /* ESTILOS MODAL OPTION */
-.modal-header{
+.modal-header, .footer-login{
   display:flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +28,10 @@
 .login-header img{
   width: 200px;
   height: 100px;
- 
 
+}
+
+.form-login label{
+  color: rgb(184, 182, 182);
+  font-weight: bold;
 }
