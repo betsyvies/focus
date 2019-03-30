@@ -4,74 +4,83 @@ body {
 
 .logo-image {
     width: 12em;
-    padding-left: 2em;
+    margin-bottom: 3em;
 }
   
-  #sidebar-wrapper {
+#sidebar-wrapper {
     min-height: 100vh;
     margin-left: -15rem;
     -webkit-transition: margin .25s ease-out;
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
-  }
+}
 
-  .sidemenu {
-      background-color: #333;
-  }
+.form-control-borderless {
+    border: none;
+}
 
-  .listitem {
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.sidemenu {
+    background-color: #333;
+}
+
+.listitem {
     background-color: #333;
     color: white;
     font-weight: bold;
     opacity: 0.8;
-  }
+    font-size: 30px;
+}
 
-  .listitem:active {
-      background: #696969;
-      opacity: 0.6;
-      color: white;
-  }
-
-  .listitem:hover {
-    background: #696969;
-    opacity: 0.6;
+.listitem:active {
+    background-color: #696969;
     color: white;
 }
 
-  .avatar {
-      width: 4em;
-      height: 4em;
-  }
-  
-  #sidebar-wrapper .sidebar-heading {
+.listitem:hover {
+    background: #696969;
+    color: white;
+}
+
+.avatar {
+    width: 4em;
+    height: 4em;
+}
+
+#sidebar-wrapper .sidebar-heading {
     padding: 0.875rem 1.25rem;
     font-size: 1.2rem;
-  }
-  
-  #sidebar-wrapper .list-group {
+}
+
+#sidebar-wrapper .list-group {
     width: 15rem;
-  }
-  
-  #page-content-wrapper {
+}
+
+#page-content-wrapper {
     min-width: 100vw;
-  }
-  
-  #wrapper.toggled #sidebar-wrapper {
+}
+
+#wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     #sidebar-wrapper {
-      margin-left: 0;
+        margin-left: 0;
     }
-  
+
     #page-content-wrapper {
-      min-width: 0;
-      width: 100%;
+        min-width: 0;
+        width: 100%;
     }
-  
+
     #wrapper.toggled #sidebar-wrapper {
-      margin-left: -15rem;
+        margin-left: -15rem;
     }
-  }
+}
