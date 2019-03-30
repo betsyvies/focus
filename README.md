@@ -1,4 +1,4 @@
-# Contenido de pill sobre diseño de un router para aplicaciones SPA con vanillajs
+# FOCUS
 
 [Aquí puedes ver la demo](https://betsyvies.github.io/2018-2-SPA/src/template-string/#/)
 
