@@ -1,0 +1,387 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+    width:100%;
+    flex-direction: row;
+    padding-top: 30;
+}
+
+#logoContainer {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+#logo {
+    width: 206px;
+}
+
+.topButtonText {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    opacity: 0.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+#topNavigator {
+    flex: 3;
+    padding-left: 190px;
+}
+
+.topButton {
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 100px;
+}
+
+.textWhiteButton {
+    font-size: 24px;
+    line-height: 29px;
+    color: #0087FB;
+    font-family: 'Poppins';
+}
+
+.whiteButton {
+    border: solid  #0087FB 3px;
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#main {
+    background-image: url("../../images/lines.png");
+    background-size: cover;
+}
+
+.imageContainer {
+    flex: 1
+}
+
+.marginextra {
+    margin-left: 5em;
+    margin-top: 9em;
+}
+
+.mainTitle {
+    font-size: 78px;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 28px;
+}
+
+.textContainer {
+    margin-left: 190px;
+    margin-right: 50px;
+}
+
+.heroImage {
+  width: 566px;
+  height: 817px;
+}
+
+.joinusContainer {
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 30px;
+    justify-content: left;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.btnColor {
+    font-size: 36px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.descriptionContainer {
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+    flex-direction: column;
+    padding-bottom: 180px;
+}
+
+#carousel {
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../../images/carousel-background.png");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 250px;
+}
+
+.logoActivities {
+    margin-top: 120px;
+    width: 655px;
+    margin-bottom: 30px;
+}
+
+.carouselTitle {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.descriptionCarousel {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 901px;
+}
+
+.corouselTextContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+    padding-right: 200px;
+}
+
+.women {
+    width: 386px;
+}
+
+.textContainer {
+    flex: 3;
+    flex-direction: column;
+}
+
+.imageContainerWoman {
+    flex: 2;
+    flex-direction: column;
+}
+
+#stem {
+    flex-direction: row;
+    padding-top: 100px;
+    background-image: url("../../images/lines.png");
+    background-size: cover;
+}
+
+#stem {
+    flex-direction: row;
+    padding-top: 100px;
+    background-image: url("../../images/background-stem.png");
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    padding-right: 500px;
+}
+
+.cardtitle {
+    font-weight: bold;
+    color: #000;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carddescription {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border-radius: 25px;
+    width: 100px;
+    flex-direction: column;
+    margin: 20px;
+    height: 317px;
+    box-shadow: 3px 4px 8px 3px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    background-color: white;
+    margin-top: 150px;
+  }
+  
+  .card:hover {
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+  }
+
+/* ESTILOS MODAL OPTION */
+.modal-header, .footer-login{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-header img{
+  width: 350px;
+  height: 200px;
+
+
+}
+
+.btn-options{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn-options button{
+  margin: 10px;
+}
+
+/* ESTILOS PARA EL LOGIN MENTORA */
+.login-header img{
+  width: 200px;
+  height: 100px;
+
+}
+
+.form-login label{
+  color: rgb(184, 182, 182);
+  font-weight: bold;
+}
+
+body {
+    overflow-x: hidden;
+  }
+
+.logo-image {
+    width: 12em;
+    margin-bottom: 3em;
+}
+  
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+.iconcard {
+    width: 3em;
+    height: 3em;
+}
+
+.iconcontainer {
+    flex: 1
+}
+
+.cardtextcontainer {
+    flex: 2
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.logomain {
+    width: 12em;
+    margin-left: 8em;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.sidemenu {
+    background-color: #333;
+}
+
+.listitem {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+.search-container {
+    margin-top: 3em;
+}
+
+.listitem:active {
+    background-color: #696969;
+    color: white;
+}
+
+.listitem:hover {
+    background: #696969;
+    color: white;
+}
+
+.avatar {
+    width: 4em;
+    height: 4em;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
