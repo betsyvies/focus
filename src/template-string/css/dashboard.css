@@ -38,6 +38,10 @@ body {
     font-size: 30px;
 }
 
+.search-container {
+    margin-top: 3em;
+}
+
 .listitem:active {
     background-color: #696969;
     color: white;
