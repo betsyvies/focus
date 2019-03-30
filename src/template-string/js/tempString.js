@@ -8,15 +8,34 @@ const objTemp = {
       <img src="https://static.wixstatic.com/media/219d1c_9731ca523bda481a98aa3074c6b7932b~mv2.jpg/v1/fill/w_131,h_108,al_c,q_80,usm_0.66_1.00_0.01/219d1c_9731ca523bda481a98aa3074c6b7932b~mv2.webp" alt="Camita">
     </figure>
   </div>`,
-  catalogo: `<div class="position">
-    <h2 class="text-center">Conejos</h2>
-    <figure>
-      <img src="https://static.wixstatic.com/media/219d1c_d724cd1eea3e4043816ee43d5141a317~mv2.png/v1/fill/w_108,h_101,al_c,q_80,usm_0.66_1.00_0.01/219d1c_d724cd1eea3e4043816ee43d5141a317~mv2.webp" alt="Conejo">
-      <img src="https://static.wixstatic.com/media/219d1c_1b65514082fe413e8bbacd3246748889~mv2.png/v1/fill/w_103,h_93,al_c,q_80,usm_0.66_1.00_0.01/219d1c_1b65514082fe413e8bbacd3246748889~mv2.webp" alt="Conejo">
-      <img src="https://static.wixstatic.com/media/219d1c_d724cd1eea3e4043816ee43d5141a317~mv2.png/v1/fill/w_108,h_101,al_c,q_80,usm_0.66_1.00_0.01/219d1c_d724cd1eea3e4043816ee43d5141a317~mv2.webp" alt="Conejo">
-      <img src="https://static.wixstatic.com/media/219d1c_1b65514082fe413e8bbacd3246748889~mv2.png/v1/fill/w_103,h_93,al_c,q_80,usm_0.66_1.00_0.01/219d1c_1b65514082fe413e8bbacd3246748889~mv2.webp" alt="Conejo">
-    </figure>
-  </div>`,
+  loginMentora: `    <div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Nombre y apellido:</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Profesión</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">¿Qué tecnologia eres experta?</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Disponibilidad de Tiempo</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+        </form>
+    </div>
+  </div>
+</div>`,
   home: `
   <div id="main" class="flex">
     <div class="flex descriptionContainer">
@@ -29,17 +48,17 @@ const objTemp = {
         <p class="subtitle">Enfocado en mujeres.</p>
       </div>
       <div class="flex joinusContainer">
-        <div class="joinusBtn">
-          <p class="btnColor">Únete</p>
+        <div>
+          <button type="button" class="btn btn-primary btnColor" data-toggle="modal" data-target="#optionUser">Únete</button>
         </div>
       </div>
     </div>
     <div class="flex imageContainer">
-      <img class="heroImage" src="assets/girl.png" alt="girl" />
+      <img class="heroImage" src="../images/girl.png" alt="girl" />
     </div>
   </div>
   <div id="carousel" class="flex">
-    <img class="logoActivities" src="assets/logo-activities.png" alt="logo-activities" />
+    <img class="logoActivities" src="../images/logo-activities.png" alt="logo-activities" />
     <div class="flex corouselTextContainer">
       <div class="flex textContainer">
         <p class="carouselTitle">Learn from women who change the world.</p>
@@ -53,7 +72,7 @@ const objTemp = {
         </p>
       </div>
       <div class="flex imageContainerWoman">
-        <img class="women" src="assets/girl11.png" alt="women" />
+        <img class="women" src="../images/girl11.png" alt="women" />
       </div>
     </div>
   </div>
@@ -78,7 +97,30 @@ const objTemp = {
         <p>Hello</p>
         <p>jkhdjkhhudjkasdssdkj</p>
       </div>
-  </div> `,
+  </div>
+  <div class="modal fade" id="optionUser" tabindex="-1" role="dialog" aria-labelledby="optionUser" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <img src="../images/Logo-and-slogan.png" alt="logoAndSlogan">
+      </div>
+      <div class="modal-body">
+          <br>
+          <h5 class="modal-title text-center" id="optionUserLabel">¿Eres mentora o te gustaría recibir mentoría?</h5>
+          <br>
+          <div class="btn-options">
+            <button type="button" id="btnLoginMentora" class="btn btn-dark" data-dismiss="modal" aria-label="Close">Mentora</button>
+            <button type="button" class="btn btn-primary">Recibir mentoría</button>
+          </div>
+          <br>
+      </div>
+    </div>
+  </div>
+</div>
+  `,
   lugares: `<div class="position">
     <h2 class="text-center">Lugares de adopción</h2>
     <figure>
